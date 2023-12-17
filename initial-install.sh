@@ -7,7 +7,7 @@ git clone https://github.com/ToddCostella/ansible.git
 cd ansible || exit
 sudo apt install ansible -y
 sudo ansible-playbook vm.yml --ask-become-pass
-cp offline-installers/jetbrains-toolbox-2.1.2.18853.tar.gz /opt
+sudo cp offline-installers/jetbrains-toolbox-2.1.2.18853.tar.gz /opt
 cd /opt || exit
 sudo tar -xvzf jetbrains-toolbox-2.1.2.18853.tar.gz
 sudo mv jetbrains-toolbox-2.1.2.18853 jetbrains
