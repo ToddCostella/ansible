@@ -1,5 +1,6 @@
-# ansible
-
+# VM Setup
 ```
-sudo ./initial-install.sh
+wget https://raw.githubusercontent.com/ToddCostella/ansible/main/bootstrap.sh
+chmod +x bootstrap.sh
+./bootstrap.sh
 ```
