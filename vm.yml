@@ -24,6 +24,7 @@
         - nala
         - btop
         - timeshift
+        - libfuse2
       tags: [packages]
 
     - name: Install 1Password
