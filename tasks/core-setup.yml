@@ -1,8 +1,0 @@
-- name: Install System Packages 1 (build-essential, cmake, pkg-config, pthread)
-  become: true
-  apt:
-    name: ["build-essential","unzip", "curl", "htop", "lsof"]
-  tags:
-    - install
-    - core
-
