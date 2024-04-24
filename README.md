@@ -9,10 +9,12 @@ Also included in this repository are scripts to install 1Password and the CLI in
 
 A desktop background and profile image are found in images.
 
-Added keyring for 
+Added keyring for displaylink-driver 
 
 ```commandline
 sudo apt install ./offline-installers/synaptics-repository-keyring.deb
 sudo apt update
 sudo apt install displaylink-driver
 ```
+
+
